@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none" thread-count="20">
+
+
+	<listeners>
+		<listener
+			class-name="AutomationFrameWork.SetupFiles.Listeners"></listener>
+	</listeners>
+	<test name="FireFoxTestCase">
+	
+		<parameter name="browsers" value="chrome" />
+		<classes> 
+			<class name="AutomationFrameWork.TestCases.SingleDecleration.SingleDeclerationExportTestCases" />
+			<!-- <class name="AutomationFrameWork.TestCases.SingleDecleration.SingleDeclerationAmendmentExportTestCases" />
+			<class name="AutomationFrameWork.TestCases.ExportCertificate.DPPExportCertificateTestCases" />
+	 		<class name="AutomationFrameWork.TestCases.SubscriptionTestCases.SubscriptionNegatvieTestCases" />
+			<class name="AutomationFrameWork.TestCases.SubscriptionTestCases.SubscriptionRegressionTestCases" /> 
+			<class name="AutomationFrameWork.TestCases.SubscriptionTestCases.SubscriptionTestCases" />
+			 -->
+		</classes>
+	</test>
+	
+</suite>

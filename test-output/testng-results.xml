@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="32" total="33" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Opened]]>
+    </line>
+    <line>
+      <![CDATA[Application]]>
+    </line>
+    <line>
+      <![CDATA[Application Opened Opened]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-09-21T09:49:17 PKT" name="Suite" finished-at="2021-09-21T09:49:26 PKT" duration-ms="9794">
+    <groups>
+    </groups>
+    <test started-at="2021-09-21T09:49:17 PKT" name="FireFoxTestCase" finished-at="2021-09-21T09:49:26 PKT" duration-ms="9794">
+      <class name="AutomationFrameWork.TestCases.SubscriptionTestCases.SubscriptionRegressionTestCases">
+        <test-method is-config="true" signature="BeforeTest(java.lang.String)[pri:0, instance:AutomationFrameWork.TestCases.SubscriptionTestCases.SubscriptionRegressionTestCases@2667f029]" started-at="2021-09-21T09:49:17 PKT" name="BeforeTest" finished-at="2021-09-21T09:49:17 PKT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:AutomationFrameWork.TestCases.SubscriptionTestCases.SubscriptionRegressionTestCases@2667f029]" started-at="2021-09-21T09:49:17 PKT" name="setup" finished-at="2021-09-21T09:49:24 PKT" duration-ms="7000" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Opened]]>
+            </line>
+            <line>
+              <![CDATA[Application]]>
+            </line>
+            <line>
+              <![CDATA[Application Opened Opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="BeforeMethod(org.testng.ITestResult)[pri:0, instance:AutomationFrameWork.TestCases.SubscriptionTestCases.SubscriptionRegressionTestCases@2667f029]" started-at="2021-09-21T09:49:24 PKT" name="BeforeMethod" finished-at="2021-09-21T09:49:24 PKT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SubscriptionRegressionTestCases.TC46_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationFrameWork.TestCases.SubscriptionTestCases.SubscriptionRegressionTestCases@2667f029] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TC46_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationFrameWork.TestCases.SubscriptionTestCases.SubscriptionRegressionTestCases@2667f029]" started-at="2021-09-21T09:49:24 PKT" name="TC46_Test" description="SubscriptionEndtoEnd" data-provider="SubscriptionEndtoEnd" finished-at="2021-09-21T09:49:26 PKT" duration-ms="2490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0000297]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1730113938011]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3172094681]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[maazmaaz97@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC46_Test -->
+      </class> <!-- AutomationFrameWork.TestCases.SubscriptionTestCases.SubscriptionRegressionTestCases -->
+    </test> <!-- FireFoxTestCase -->
+  </suite> <!-- Suite -->
+</testng-results>
